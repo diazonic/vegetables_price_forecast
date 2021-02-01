@@ -1,0 +1,15 @@
+Steps for Forecasting from Horticulture website:
+1. Go to the website and seaarch for respective crop
+http://nhrdf.org/en-us/DailyWiseMarketArrivals
+2. Save the HTML file with HTML tables
+3. Load the HTML file in Google colab and create a Dataframe
+4. Drop the last row since it is of no use for us
+5. Check the datatypes of columns
+6. # We need 2 columns for forecasting
+# 1. Date in Datetime datatype format
+# 2. Modal Price - in int format
+7. Create a new dataframe with only 2 columns
+8. Rename the columns as d and y
+9. Plot the Line plot to see the trend
+10. Call for Prophet Libray and create a forecaster
+https://facebook.github.io/prophet/docs/quick_start.html
